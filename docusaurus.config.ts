@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'CRM دیکاتو',
+  title: 'مرکز آموزش CRM دیکاتو',
   tagline: 'وقتی فروش باید دقیق، سریع و هوشمند باشه.',
   favicon: 'img/favicon.ico',
 
@@ -15,22 +15,18 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.dicato.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dicato', // Usually your GitHub org/user name.
+  projectName: 'dicato-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fa',
     locales: ['fa'],
@@ -51,7 +47,7 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        blog: false, // اگه بلاگ نمی‌خوای
+        blog: false,
         pages: false,
       } satisfies Preset.Options,
 
